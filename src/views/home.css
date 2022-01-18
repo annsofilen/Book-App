@@ -1,0 +1,18 @@
+
+.parent {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.book-menu {
+    width: 450px;
+    height: 550px;
+    flex: 1 0 21%; 
+    margin: 2px;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+}

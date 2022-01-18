@@ -1,0 +1,53 @@
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    color: #ffff;
+}
+
+.main-parent {
+    display: flex;
+    background-color: black;
+}
+.first-child {
+    padding-right: 2px;
+}
+
+.book-front {
+    width: 500px;
+    height: 600px;
+}
+
+.text-on-book {
+    padding-top: 73%;
+}
+
+#desc-text {
+    margin-left: 5px;
+}
+
+.inner-parent {
+    display: flex;
+    flex-direction: row;
+    background-color: hsla(0, 0%, 77%, 0.08);
+    justify-content: space-evenly;
+    
+}
+
+.second-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.read-button {
+    border: none;
+    width: 200px;
+    height: 75px;
+    border-radius: 2px;
+    transition: all 0.5s ease;
+}
+
+.read-button:hover {
+    size: 1.1%;
+    text-transform: uppercase;
+}

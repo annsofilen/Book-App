@@ -1,0 +1,20 @@
+.book {
+    height: 400px;
+    width: 250px;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 2px;
+}
+
+.book-text {
+    padding-top: 50%;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.5s ease;
+}
+
+.book-text:hover {
+    padding-top: 45%;
+    text-transform: uppercase;
+}
